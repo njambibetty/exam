@@ -76,7 +76,7 @@
 	color: red;
 }
 body{
-	background-color: teal;
+	background-color:/*s*/ teal;
 	font-family: Arial, sans-serif;
 	
 }
@@ -87,10 +87,10 @@ body{
 
 
 
-.grid{
+/*.grid{
 	display: grid;
 	grid-gap: 10px;
-}
+}*/
 
 .beee{
 
@@ -111,6 +111,10 @@ p{
 	color: white;
 	padding: 3px;
 	display: inline-block;
+	text-align: justify;
+	text-align: center;
+	background-color: rgba(0, 0, 0, .3);
+
 }
 @media screen and (min-width: 500px) {
   div.title {
@@ -129,10 +133,23 @@ footer{
  .bar{
 	display: flex;
 	padding: 40px 100px;
+	overflow: hidden;
+	text-align: center;
 }
 
 .li ul{
 	flex: 1;
 	display: inline;
 	margin-right: 8px  25px;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ /* width: 50%;*/
+  filter: grayscale(100%)
+}  
+img:hover {
+  transform: scaleX(-1);
 }
