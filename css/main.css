@@ -38,7 +38,7 @@
 	list-style: none;
 }
 .links ul a{
-	color: #fff;
+	color: #696762;
 	font-size: 20px;
 	/*font-weight: 6px;
 	float: left;*/
@@ -76,7 +76,7 @@
 	color: red;
 }
 body{
-	background-color:/*s*/ teal;
+	background-color: white;
 	font-family: Arial, sans-serif;
 	
 }
@@ -91,6 +91,7 @@ body{
 	display: grid;
 	grid-template-columns: 33.3% 33.3% 33.3%;
 	padding: 30px;
+	grid-gap: 20px;
 }
 
 .beee{
@@ -118,13 +119,12 @@ h2,h3{
 p{
 	/*margin: 8px;
 	height: 6px;*/
-	color: white;
+	color: black;
 	padding: 3px;
 	display: inline-block;
 	text-align: justify;
 	/*text-align: center;*/
-	background-color: rgba(0, 0, 0, .3);
-
+	/**/
 }
 @media screen and (min-width: 500px) {
   div.title {
