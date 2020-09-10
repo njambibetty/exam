@@ -9,7 +9,8 @@
 .bee{
 	height: 100vh;
 	background-image: linear gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)); 
-	background-image: url(https://images.unsplash.com/photo-1544083098-76551842b5fc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1141&q=80);
+	/*background-image: url(https://images.unsplash.com/photo-1544083098-76551842b5fc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1141&q=80);*/
+	background-image: url(https://i.pinimg.com/originals/3e/bb/9e/3ebb9ec050d4980658c17d54c9e0f8b4.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -38,7 +39,8 @@
 	list-style: none;
 }
 .links ul a{
-	color: #696762;
+	/*color: #696762;*/
+	color: #593032;
 	font-size: 20px;
 	/*font-weight: 6px;
 	float: left;*/
@@ -67,13 +69,14 @@
     color: #262626;
 }
 .title{
-	padding: 5px 20px;
-	color: cyan;
+	padding: 100px 150px;
+	color: #262626;
 	font-size: 8vw;
+	text-align: center;
 }
 .title h4 span{
 	margin-bottom: 30px;
-	color: red;
+	color: #45393a;
 }
 body{
 	background-color: white;
@@ -90,11 +93,13 @@ body{
 .wrapper{
 	display: grid;
 	grid-template-columns: 33.3% 33.3% 33.3%;
+	/*grid-template-columns: 20% 20% 20% 20%;*/
 	padding: 20px;
 	grid-gap: 10px;
 }
 
-.beee{
+.beet{
+	color: cyan;
 
 }
 h1{
@@ -119,7 +124,7 @@ h2,h3{
 p{
 	/*margin: 8px;
 	height: 6px;*/
-	color: black;
+	color: 262626;
 	padding: 3px;
 	display: inline-block;
 	text-align: justify;
@@ -175,13 +180,17 @@ footer{
  /* width: 50%;*/
   filter: grayscale(100%)
 }   
+
+.img4{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ /* width: 50%;*/
+  filter: grayscale(100%)
+}   
 img:hover {
   transform: scaleX(-1);
 }
 /*body{
 	background-color: teal;
-}*/
-
-.about{
-	background-color: white;
 }
